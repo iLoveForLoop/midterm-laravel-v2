@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         Project::factory(10)->create();
-        Music::factory(10)->create();
+
 
         User::factory()->create([
             'name' => 'Test User',
